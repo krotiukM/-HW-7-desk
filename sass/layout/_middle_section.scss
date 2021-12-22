@@ -1,0 +1,68 @@
+.middle_section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.middle_section-list {
+  display: flex;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+  margin-bottom: 10px;
+}
+
+.after-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  width: 270px;
+}
+
+.title-about,
+.title-about-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+  margin-bottom: 50px;
+}
+
+.middle-item {
+  margin-right: 30px;
+}
+
+.middle-item:last-child {
+  margin-right: 0;
+}
+
+.middle-icon-link {
+  width: 270px;
+  height: 120px;
+  background: #ffffff;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.middle-icon-link:focus,
+.middle-icon-link:hover {
+  border: 3px solid #2196f3;
+  color: var(--accent-color);
+}
