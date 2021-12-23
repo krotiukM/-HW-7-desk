@@ -22,6 +22,10 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-navigation {
@@ -32,17 +36,14 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-logo-studio {
   color: white;
-}
-
-.footer-address:hover,
-.footer-navigation:hover,
-.footer-address:focus,
-.footer-navigation:focus {
-  color: var(--accent-color);
 }
 
 .contacts-list {
@@ -51,11 +52,11 @@
 
 .contacts-items {
   margin-bottom: 9px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
-.contacts-items:last-child {
-  margin-bottom: 0;
-}
 .contacts-address {
   width: 231px;
   height: 132px;
@@ -105,15 +106,14 @@
   justify-content: center;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
 }
 
 .add-social-icon {
   fill: currentColor;
-}
-
-.add-social-link:focus,
-.add-social-link:hover {
-  background-color: var(--accent-color);
 }
 
 .online {
@@ -159,12 +159,10 @@
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
   padding-top: 10px;
   padding-left: 29px;
   display: flex;
-
   cursor: pointer;
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
