@@ -1,4 +1,4 @@
-.main_bigest_section {
+.hero_section {
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-bg.jpg);
@@ -9,7 +9,7 @@
   background-size: cover;
 }
 
-.main_h1 {
+.hero_section__h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -22,7 +22,7 @@
   width: 645px;
 }
 
-.header-btn {
+.hero_section__btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;

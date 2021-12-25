@@ -2,21 +2,22 @@
   padding-bottom: 94px;
 }
 
-.about-list {
+.about_section__list {
   display: flex;
 }
-.about-item {
+
+.about_section__item {
   margin-right: 30px;
 }
 
-.about-item:last-child {
+.about_section__item:last-child {
   margin-right: 0;
 }
-.about_item_wrap {
+.about_section__wrap {
   position: relative;
 }
 
-.about-subtitle {
+.about_section__subtitle {
   position: absolute;
   bottom: 0;
   left: 0;
